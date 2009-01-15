@@ -1,6 +1,5 @@
 <?php
-header('Content-Type: text/html, charset=utf-8');
-/* SVN FILE: $Id: core.php 7118 2008-06-04 20:49:29Z gwoo $ */
+/* SVN FILE: $Id: core.php 7945 2008-12-19 02:16:01Z gwoo $ */
 /**
  * This is core configuration file.
  *
@@ -8,24 +7,22 @@ header('Content-Type: text/html, charset=utf-8');
  *
  * PHP versions 4 and 5
  *
- * CakePHP(tm) :  Rapid Development Framework <http://www.cakephp.org/>
- * Copyright 2005-2008, Cake Software Foundation, Inc.
- *								1785 E. Sahara Avenue, Suite 490-204
- *								Las Vegas, Nevada 89104
+ * CakePHP(tm) :  Rapid Development Framework (http://www.cakephp.org)
+ * Copyright 2005-2008, Cake Software Foundation, Inc. (http://www.cakefoundation.org)
  *
  * Licensed under The MIT License
  * Redistributions of files must retain the above copyright notice.
  *
  * @filesource
- * @copyright		Copyright 2005-2008, Cake Software Foundation, Inc.
- * @link				http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
- * @package			cake
- * @subpackage		cake.app.config
- * @since			CakePHP(tm) v 0.2.9
- * @version			$Revision: 7118 $
- * @modifiedby		$LastChangedBy: gwoo $
- * @lastmodified	$Date: 2008-06-04 13:49:29 -0700 (Wed, 04 Jun 2008) $
- * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @copyright     Copyright 2005-2008, Cake Software Foundation, Inc. (http://www.cakefoundation.org)
+ * @link          http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
+ * @package       cake
+ * @subpackage    cake.app.config
+ * @since         CakePHP(tm) v 0.2.9
+ * @version       $Revision: 7945 $
+ * @modifiedby    $LastChangedBy: gwoo $
+ * @lastmodified  $Date: 2008-12-18 20:16:01 -0600 (Thu, 18 Dec 2008) $
+ * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 /**
  * CakePHP Debug Level:
@@ -67,7 +64,7 @@ header('Content-Type: text/html, charset=utf-8');
  * 'admin' 		-> admin_index() and /admin/controller/index
  * 'superuser' -> superuser_index() and /superuser/controller/index
  */
-	Configure::write('Routing.admin', 'admin');
+	//Configure::write('Routing.admin', 'admin');
 
 /**
  * Turn off all caching application-wide.
@@ -151,7 +148,7 @@ header('Content-Type: text/html, charset=utf-8');
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0ckvpserp23423keqskld	qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
 /**
  * Compress CSS output by removing comments, whitespace, repeating tags, etc.
  * This requires a/var/cache directory to be writable by the web server for caching.
@@ -181,7 +178,7 @@ header('Content-Type: text/html, charset=utf-8');
  * File storage engine.
  *
  * 	 Cache::config('default', array(
- *		'engine' => 'File' //[required]
+ *		'engine' => 'File', //[required]
  *		'duration'=> 3600, //[optional]
  *		'probability'=> 100, //[optional]
  * 		'path' => CACHE, //[optional] use system tmp directory - remember to use absolute path
@@ -194,7 +191,7 @@ header('Content-Type: text/html, charset=utf-8');
  * APC (http://pecl.php.net/package/APC)
  *
  * 	 Cache::config('default', array(
- *		'engine' => 'Apc' //[required]
+ *		'engine' => 'Apc', //[required]
  *		'duration'=> 3600, //[optional]
  *		'probability'=> 100, //[optional]
  * 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
@@ -203,7 +200,7 @@ header('Content-Type: text/html, charset=utf-8');
  * Xcache (http://xcache.lighttpd.net/)
  *
  * 	 Cache::config('default', array(
- *		'engine' => 'Xcache' //[required]
+ *		'engine' => 'Xcache', //[required]
  *		'duration'=> 3600, //[optional]
  *		'probability'=> 100, //[optional]
  * 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional] prefix every cache file with this string
@@ -215,7 +212,7 @@ header('Content-Type: text/html, charset=utf-8');
  * Memcache (http://www.danga.com/memcached/)
  *
  * 	 Cache::config('default', array(
- *		'engine' => 'Memcache' //[required]
+ *		'engine' => 'Memcache', //[required]
  *		'duration'=> 3600, //[optional]
  *		'probability'=> 100, //[optional]
  * 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string

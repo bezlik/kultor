@@ -1,49 +1,47 @@
-/* SVN FILE: $Id: cake.generic.css 6760 2008-05-05 14:41:27Z DarkAngelBGE $ */
+/* SVN FILE: $Id: cake.generic.css 7945 2008-12-19 02:16:01Z gwoo $ */
 /**
  *
  * PHP versions 4 and 5
  *
- * CakePHP(tm) :  Rapid Development Framework <http://www.cakephp.org/>
- * Copyright 2005-2008, Cake Software Foundation, Inc.
- *								1785 E. Sahara Avenue, Suite 490-204
- *								Las Vegas, Nevada 89104
+ * CakePHP(tm) :  Rapid Development Framework (http://www.cakephp.org)
+ * Copyright 2005-2008, Cake Software Foundation, Inc. (http://www.cakefoundation.org)
  *
  * Licensed under The MIT License
  * Redistributions of files must retain the above copyright notice.
  *
  * @filesource
- * @copyright		Copyright 2005-2008, Cake Software Foundation, Inc.
- * @link				http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
- * @package			cake
- * @subpackage		cake.app.webroot.css
- * @since			CakePHP(tm)
- * @version			$Revision: 6760 $
- * @modifiedby		$LastChangedBy: DarkAngelBGE $
- * @lastmodified	$Date: 2008-05-05 17:41:27 +0300 (Пн, 05 Тра 2008) $
- * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ * @copyright     Copyright 2005-2008, Cake Software Foundation, Inc. (http://www.cakefoundation.org)
+ * @link          http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
+ * @package       cake
+ * @subpackage    cake.app.webroot.css
+ * @since         CakePHP(tm)
+ * @version       $Revision: 7945 $
+ * @modifiedby    $LastChangedBy: gwoo $
+ * @lastmodified  $Date: 2008-12-18 20:16:01 -0600 (Thu, 18 Dec 2008) $
+ * @license       http://www.opensource.org/licenses/mit-license.php The MIT License
  */
 
 * {
-margin:0;
-padding:0;
+	margin:0;
+	padding:0;
 }
 
 /* General Style Info */
 body {
-	background-color: #003d4c;
+	background: #003d4c;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
 	margin: 0;
 }
 a {
-	background-color: inherit;
+	background:#fff;
 	color: #003d4c;
 	text-decoration: underline;
 	font-weight: bold;
 }
 a:hover {
-	background-color: inherit;
+	background:#fff;
 	color: #003d4c;
 	text-decoration:none;
 }
@@ -51,15 +49,16 @@ a img {
 	border:none;
 }
 h1, h2, h3, h4 {
-	background-color: inherit;
 	font-weight: normal;
 }
 h1 {
+	background:#fff;
 	color: #003d4c;
 	font-size: 100%;
 	margin: 0.1em 0;
 }
 h2 {
+	background:#fff;
 	color: #e32;
 	font-family:'Gill Sans','lucida grande',helvetica, arial, sans-serif;
 	font-size: 190%;
@@ -80,42 +79,33 @@ h4 {
 ul, li {
 	margin: 0 12px;
 }
-div.top-menu {
-	text-align:right;
-}
 
-div.top-menu a:link, a:visited, a:hover {
-	color:white;
-	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
-	font-size:90%;
-	text-decoration: underline;
-}
 /* Layout */
 #container {
 	text-align: left;
 }
 
 #header{
-	padding: 10px 20px 10px 20px;
+	padding: 10px 20px;
 }
 #header h1 {
-	background: url('../img/icon.png') no-repeat left;
-	color: #ffffff;
+	background: #003d4c url('../img/cake.icon.gif') no-repeat left;
+	color: #fff;
 	padding: 0px 30px;
 }
 #header h1 a {
-	color: #ffffff;
+	color: #fff;
 	background: #003d4c;
 	font-weight: normal;
 	text-decoration: none;
 }
 #header h1 a:hover {
-	color: #ffffff;
+	color: #fff;
 	background: #003d4c;
 	text-decoration: underline;
 }
 #content{
-	background-color: #fff;
+	background: #fff;
 	clear: both;
 	color: #333;
 	padding: 10px 20px 40px 20px;
@@ -127,35 +117,31 @@ div.top-menu a:link, a:visited, a:hover {
 	text-align: right;
 }
 
-.intro-text {
-	padding-left:20px;	
-}
 /* Tables */
 table {
-	background-color: #fff;
-	border-top: 1px solid #ccc;
-	border-left: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
+	background: #fff;
+	border:1px solid #ccc;
+	border-right:0;
 	clear: both;
 	color: #333;
 	margin-bottom: 10px;
 	width: 100%;
 }
 th {
-	background-color: #f2f2f2;
+	background: #f2f2f2;
+	border:1px solid #bbb;
 	border-top: 1px solid #fff;
 	border-left: 1px solid #fff;
-	border-right: 1px solid #bbb;
-	border-bottom: 1px solid #bbb;
 	text-align: center;
 }
 th a {
+	background:#f2f2f2;
 	display: block;
 	padding: 2px 4px;
 	text-decoration: none;
 }
 th a:hover {
-	background-color: #ccc;
+	background: #ccc;
 	color: #333;
 	text-decoration: none;
 }
@@ -174,7 +160,6 @@ td.actions {
 	white-space: nowrap;
 }
 td.actions a {
-	display: inline;
 	margin: 0px 6px;
 }
 .cake-sql-log table {
@@ -187,6 +172,7 @@ td.actions a {
 
 /* Paging */
 div.paging {
+	background:#fff;
 	color: #ccc;
 	margin-bottom: 2em;
 }
@@ -235,6 +221,7 @@ fieldset {
 	padding: 16px 20px;
 }
 fieldset legend {
+	background:#fff;
 	color: #e32;
 	font-size: 160%;
 	font-weight: bold;
@@ -242,12 +229,11 @@ fieldset legend {
 fieldset fieldset {
 	margin-top: 0px;
 	margin-bottom: 20px;
-	padding: 16px 0;
+	padding: 16px 10px;
 }
 fieldset fieldset legend {
 	font-size: 120%;
 	font-weight: normal;
-	margin-left: 20px;
 }
 fieldset fieldset div {
 	clear: left;
@@ -279,7 +265,6 @@ label {
 }
 input, textarea {
 	clear: both;
-	display: block;
 	font-size: 140%;
 	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
 	padding: 2px;
@@ -302,6 +287,14 @@ input[type=checkbox] {
 	float: left;
 	margin: 0px 6px 7px 2px;
 	width: auto;
+}
+input[type=radio] {
+	float:left;
+	width:auto;
+	margin: 0 3px 7px 0;
+}
+div.radio label {
+	margin: 0 0 6px 20px;
 }
 input[type=submit] {
 	display: inline;
@@ -339,7 +332,7 @@ p.error em {
 	line-height: 140%;
 }
 .notice {
-	background-color: #ffcc00;
+	background: #ffcc00;
 	color: #000;
 	display: block;
 	font-family: Courier, monospace;
@@ -349,8 +342,8 @@ p.error em {
 	margin: 1em 0;
 }
 .success {
-	background-color: green;
-	color: #FFF;
+	background: green;
+	color: #fff;
 }
 
 /*  Actions  */
@@ -366,6 +359,7 @@ div.actions li {
 	white-space: nowrap;
 }
 div.actions ul li a {
+	background:#fff;
 	color: #003d4c;
 	text-decoration: none;
 }
@@ -410,7 +404,7 @@ div.cake-code-dump pre {
 	overflow: auto;
 }
 div.cake-stack-trace pre, div.cake-code-dump pre {
-	color: #000000;
+	color: #000;
 	background-color: #F0F0F0;
 	margin: 0px;
 	padding: 1em;
@@ -425,7 +419,7 @@ div.cake-code-dump pre, div.cake-code-dump pre code {
 	overflow: auto;
 }
 div.cake-code-dump span.code-highlight {
-	background-color: #FFFF00;
+	background-color: #ff0;
 	padding: 4px;
 }
 div.code-coverage-results div.code-line {
