@@ -1,0 +1,79 @@
+8
+
+dir
+7027
+https://svn.cakephp.org/repo/branches/1.2.x.x/cake/libs/view/layouts
+https://svn.cakephp.org/repo
+
+
+
+2008-03-08T20:26:16.193133Z
+6522
+phpnut
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3807eeeb-6ff5-0310-8944-8be069107fe0
+
+xml
+dir
+
+flash.ctp
+file
+
+
+
+
+2008-05-23T08:44:50.218750Z
+dbec50b334b766d3e20644dfdd6bd062
+2008-01-01T22:18:17.477495Z
+6296
+phpnut
+has-props
+
+email
+dir
+
+rss
+dir
+
+ajax.ctp
+file
+
+
+
+
+2008-05-23T08:44:50.234375Z
+ee05337f53f4ceea0a3d0e9ee997ebb0
+2008-01-01T22:18:17.477495Z
+6296
+phpnut
+has-props
+
+default.ctp
+file
+
+
+
+
+2008-05-23T08:44:50.250000Z
+6bdc75141203c724f3b75c9fcfda6ac4
+2008-02-24T03:47:41.011570Z
+6474
+nate
+has-props
+
+js
+dir
+

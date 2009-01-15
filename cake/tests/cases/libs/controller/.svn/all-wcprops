@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/!svn/ver/7026/branches/1.2.x.x/cake/tests/cases/libs/controller
+END
+scaffold.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repo/!svn/ver/7020/branches/1.2.x.x/cake/tests/cases/libs/controller/scaffold.test.php
+END
+component.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repo/!svn/ver/6374/branches/1.2.x.x/cake/tests/cases/libs/controller/component.test.php
+END
+controller.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repo/!svn/ver/7013/branches/1.2.x.x/cake/tests/cases/libs/controller/controller.test.php
+END
+pages_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repo/!svn/ver/6296/branches/1.2.x.x/cake/tests/cases/libs/controller/pages_controller.php
+END

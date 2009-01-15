@@ -1,0 +1,57 @@
+8
+
+dir
+7027
+https://svn.cakephp.org/repo/branches/1.2.x.x/cake/libs/model/datasources
+https://svn.cakephp.org/repo
+
+
+
+2008-05-23T07:09:16.615591Z
+7027
+the_undefined
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3807eeeb-6ff5-0310-8944-8be069107fe0
+
+datasource.php
+file
+
+
+
+
+2008-05-23T08:44:47.671875Z
+0296034d3018a6937f9b41632d4c6d86
+2008-05-22T19:05:37.146558Z
+7015
+nate
+has-props
+
+dbo
+dir
+
+dbo_source.php
+file
+
+
+
+
+2008-05-23T08:44:47.687500Z
+6a48d301770313757fffe9f8d2fece22
+2008-05-23T07:09:16.615591Z
+7027
+the_undefined
+has-props
+

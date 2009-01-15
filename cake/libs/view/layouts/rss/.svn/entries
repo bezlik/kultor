@@ -1,0 +1,41 @@
+8
+
+dir
+7027
+https://svn.cakephp.org/repo/branches/1.2.x.x/cake/libs/view/layouts/rss
+https://svn.cakephp.org/repo
+
+
+
+2006-11-26T03:22:02.463704Z
+3978
+phpnut
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3807eeeb-6ff5-0310-8944-8be069107fe0
+
+default.ctp
+file
+
+
+
+
+2008-05-23T08:44:50.140625Z
+4aa92028be523d1c473716ac5331d039
+2006-11-26T03:22:02.463704Z
+3978
+phpnut
+has-props
+

@@ -1,0 +1,54 @@
+8
+
+dir
+7027
+https://svn.cakephp.org/repo/branches/1.2.x.x/cake/tests/test_app/locale/rule_0_mo/LC_MESSAGES
+https://svn.cakephp.org/repo
+
+
+
+2008-05-17T00:48:34.490695Z
+6905
+phpnut
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3807eeeb-6ff5-0310-8944-8be069107fe0
+
+core.mo
+file
+
+
+
+
+2008-05-23T08:44:10.281250Z
+a36f13ceb47fdb2d6718d1740992062d
+2008-05-17T00:48:34.490695Z
+6905
+phpnut
+has-props
+
+default.mo
+file
+
+
+
+
+2008-05-23T08:44:10.296875Z
+67074e9e64a70bbfb403e66edbdd57b2
+2008-05-17T00:48:34.490695Z
+6905
+phpnut
+has-props
+

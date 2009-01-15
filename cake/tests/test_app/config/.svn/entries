@@ -1,0 +1,41 @@
+8
+
+dir
+7027
+https://svn.cakephp.org/repo/branches/1.2.x.x/cake/tests/test_app/config
+https://svn.cakephp.org/repo
+
+
+
+2008-05-18T22:51:29.936301Z
+6932
+mariano.iglesias
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3807eeeb-6ff5-0310-8944-8be069107fe0
+
+acl.ini.php
+file
+
+
+
+
+2008-05-23T08:44:14.562500Z
+8189a670c767d128aab47dadae62f218
+2008-05-15T06:00:12.229652Z
+6884
+phpnut
+has-props
+

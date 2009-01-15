@@ -1,0 +1,70 @@
+8
+
+dir
+7027
+https://svn.cakephp.org/repo/branches/1.2.x.x/cake/tests/cases/libs/view
+https://svn.cakephp.org/repo
+
+
+
+2008-05-23T05:53:49.672532Z
+7025
+nate
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3807eeeb-6ff5-0310-8944-8be069107fe0
+
+helpers
+dir
+
+helper.test.php
+file
+
+
+
+
+2008-05-23T08:44:35.640625Z
+ca7436d4011fb2b32613b2890b90c111
+2008-05-05T14:41:15.225358Z
+6759
+gwoo
+has-props
+
+theme.test.php
+file
+
+
+
+
+2008-05-23T08:44:35.640625Z
+5eb2180f9297268e35192dbe3333fdb7
+2008-05-23T05:37:43.575186Z
+7024
+gwoo
+has-props
+
+view.test.php
+file
+
+
+
+
+2008-05-23T08:44:35.656250Z
+88d215035b680345a00da5bac520628e
+2008-05-23T05:26:33.230226Z
+7023
+gwoo
+has-props
+

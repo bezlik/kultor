@@ -1,0 +1,44 @@
+8
+
+dir
+7027
+https://svn.cakephp.org/repo/branches/1.2.x.x/cake/tests/test_app/controllers
+https://svn.cakephp.org/repo
+
+
+
+2008-03-12T21:19:31.340737Z
+6563
+phpnut
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3807eeeb-6ff5-0310-8944-8be069107fe0
+
+components
+dir
+
+tests_apps_controller.php
+file
+
+
+
+
+2008-05-23T08:44:14.640625Z
+41bbb973dc27cc1ebc57281a262ba75d
+2008-03-12T21:19:31.340737Z
+6563
+phpnut
+has-props
+

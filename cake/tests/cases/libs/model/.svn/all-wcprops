@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repo/!svn/ver/7027/branches/1.2.x.x/cake/tests/cases/libs/model
+END
+behavior.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repo/!svn/ver/6925/branches/1.2.x.x/cake/tests/cases/libs/model/behavior.test.php
+END
+model.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repo/!svn/ver/7005/branches/1.2.x.x/cake/tests/cases/libs/model/model.test.php
+END
+schema.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/!svn/ver/7027/branches/1.2.x.x/cake/tests/cases/libs/model/schema.test.php
+END
+db_acl.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repo/!svn/ver/6999/branches/1.2.x.x/cake/tests/cases/libs/model/db_acl.test.php
+END
+models.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repo/!svn/ver/7005/branches/1.2.x.x/cake/tests/cases/libs/model/models.php
+END
