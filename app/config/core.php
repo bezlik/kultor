@@ -148,7 +148,7 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9masfagyuisgfvegvwe79gfwer876gf4fvbi');
 /**
  * Compress CSS output by removing comments, whitespace, repeating tags, etc.
  * This requires a/var/cache directory to be writable by the web server for caching.
@@ -224,4 +224,5 @@
  *
  */
 	Cache::config('default', array('engine' => 'File'));
+	header("content-type: text/html; charset=utf8")
 ?>

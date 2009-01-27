@@ -1,2 +1,2 @@
-1232014548
+1233054681
 a:6:{s:2:"id";a:5:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";N;s:6:"length";i:11;s:3:"key";s:7:"primary";}s:11:"event_title";a:4:{s:4:"type";s:6:"string";s:4:"null";b:1;s:7:"default";N;s:6:"length";i:255;}s:10:"event_date";a:4:{s:4:"type";s:9:"timestamp";s:4:"null";b:0;s:7:"default";s:17:"CURRENT_TIMESTAMP";s:6:"length";N;}s:14:"event_end_date";a:4:{s:4:"type";s:9:"timestamp";s:4:"null";b:0;s:7:"default";s:19:"0000-00-00 00:00:00";s:6:"length";N;}s:7:"user_id";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:0;s:7:"default";s:0:"";s:6:"length";i:11;}s:8:"place_id";a:4:{s:4:"type";s:7:"integer";s:4:"null";b:1;s:7:"default";N;s:6:"length";i:255;}}

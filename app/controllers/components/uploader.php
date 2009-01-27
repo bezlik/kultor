@@ -4,14 +4,12 @@ class UploaderComponent extends Object {
 var $uses = array('Files');
 var $message = '';
 
-	function getAvatar($id=null)
-	{
+function getAvatar($id=null){
 		
-		if ($id==null) return "blank.jpg";
-		
+		if ($id==null) return "blank.jpg";		
 		$Model =& ClassRegistry::init('FileList'); 
 		return $Model->findAll(array('type'=>'avatar','owner'=>$id));
-	}
+}
 	
 	
 function uploadAvatar($data)
@@ -20,16 +18,13 @@ function uploadAvatar($data)
 			$Model =& ClassRegistry::init('FileList'); 
 			$files = $Model->findAll(array('type'=>'avatar','owner'=>$data['User']['id']));
 			$target_path = "files/upload/avatar/";		
-			foreach($files as $file)
-			{			
+			foreach($files as $file) {			
 				if($file['FileList']['id']==$Model->id) continue;				
 				$ext = strtolower(strrchr($file['FileList']['name'],"."));				
-				unlink($target_path.$file['FileList']['id'].$ext);
-				
+				unlink($target_path.$file['FileList']['id'].$ext);				
 			}
 			//@todo: fix that
-			$Model->query("delete from ".$Model->table." where type='avatar' and owner='{$data['User']['id']}' and id<>'{$Model->id}'");
-		
+			$Model->query("delete from ".$Model->table." where type='avatar' and owner='{$data['User']['id']}' and id<>'{$Model->id}'");		
 	}
  }
  
