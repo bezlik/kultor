@@ -343,3 +343,6 @@
 2009-01-27 13:06:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at Z:\home\kultor\www\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
 2009-01-27 13:07:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at Z:\home\kultor\www\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
 2009-01-27 13:07:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at Z:\home\kultor\www\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
+2009-01-28 16:04:05 Warning: Warning (2): fopen(Z:\home\kultor\www\app\tmp\cache\\models\cake_model_default_kultor_list) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in [CORE\cake\libs\file.php, line 156]
+2009-01-28 16:43:52 Warning: Warning (512): <span style = "color:Red;text-align:left"><b>SQL Error:</b> 1110: Column 'user_id' specified twice</span> in [CORE\cake\libs\model\datasources\dbo_source.php, line 514]
+2009-01-28 16:43:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at Z:\home\kultor\www\cake\basics.php:111) in [CORE\cake\libs\controller\controller.php, line 615]
