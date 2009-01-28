@@ -2,7 +2,7 @@
 class Event extends AppModel {
 
 	var $name = 'Event';
-	var $actsAs = 'wikable';
+	var $actsAs = array('History');
 	var $validate = array(
 		'event_date' => array(
 			"rule"=>"checkEmpty","message"=>"Необходимо выбрать дату начала события"),
@@ -35,12 +35,6 @@ class Event extends AppModel {
       return true;
 	}
 	
-	function beforeSave() {
-		
-		
-		return true;
-
-	} 
 	
 	
   	public function checkDate($data) {

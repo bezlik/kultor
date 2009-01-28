@@ -312,7 +312,7 @@ class AuthComponent extends Object {
 					$this->Session->write('Auth.redirect', $controller->referer(null, true));
 				}
 				return false;
-			}
+			}			
 			$username = $controller->data[$this->userModel][$this->fields['username']];
 			$password = $controller->data[$this->userModel][$this->fields['password']];
 
@@ -653,7 +653,6 @@ class AuthComponent extends Object {
 		if (!$this->Session->check($this->sessionKey)) {
 			return null;
 		}
-
 		if ($key == null) {
 			return array($this->userModel => $this->Session->read($this->sessionKey));
 		} else {

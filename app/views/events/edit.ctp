@@ -3,13 +3,12 @@
 		<fieldset>
 	 		<legend><?php __('Edit Event');?></legend>
 		<?php
-			echo $form->input('id');
-			echo $form->input('event_title');			
-			echo $form->input('event_date');
-			echo $form->input('event_end_date');
+			echo $form->input('Event.id');
+			echo $form->input('Event.title');			
+			echo $form->input('Event.event_date');
+			echo $form->input('Event.event_end_date');
 			//__()			
-			echo $form->input('wikiText', array('type'=>'textarea','label'=>"Description",'value'=>$this->data['Wiki']['text']));
-			
+			echo $form->input('Event.description', array('type'=>'textarea','label'=>"Description"));			
 			echo $form->input('city',array('value'=>$city));
 			echo $form->input('place_id');
 		?>

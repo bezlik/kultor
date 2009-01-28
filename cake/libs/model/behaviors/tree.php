@@ -57,7 +57,7 @@ class TreeBehavior extends ModelBehavior {
  * @return void
  * @access public
  */
-	function setup(&$model, $config = array()) {
+	function setup(&$model, $config = array()) {		
 		if (!is_array($config)) {
 			$config = array('type' => $config);
 		}
