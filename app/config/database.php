@@ -84,8 +84,8 @@ class DATABASE_CONFIG {
 		'driver' => 'mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'kultor',
-		'password' => 'rekmnjhLfnf,tqp',
+		'login' => 'root',
+		'password' => '',
 		'database' => 'kultor',
 		'prefix' => '',
 		'encoding'=>'utf8'
